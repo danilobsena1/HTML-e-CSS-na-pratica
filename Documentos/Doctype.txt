@@ -1,0 +1,10 @@
+Doctype
+O doctype ou DTD (Document Type Definition ou Definição do Tipo de Documento, em português)
+ é uma declaração com o tipo de documento de sua página web.
+  Por meio do doctype, o navegador identifica e processa corretamente o documento.
+
+Você sabia que existem vários tipos de HTML?
+
+Exatamente! Como existem tipos diferentes de HTML, a declaração correta é de extrema importância. Com a declaração, o navegador não perde tempo tentando descobrir qual tipo de código foi utilizado na composição de sua página.
+
+Quando o navegador identifica o tipo de HTML, pode utilizar o tipo de renderização adequada.

@@ -1,0 +1,33 @@
+O HTML é considerado a linguagem base da internet. Ele é o acrônimo de Hypertext Markup Language e significa Linguagem de Marcação de Hipertexto, em português.
+
+Com o surgimento da web, Tim Berners-Lee desenvolveu o HTML.
+
+A linguagem HTML é usada para a publicação de conteúdo na web, como textos, imagens, vídeos, áudio etc.
+
+A proposta do HTML é suprir a necessidade de criar uma linguagem compatível com os diferentes meios de acesso.
+
+Somente nos anos 1990, o HTML ganhou força. Desde então, o HTML foi adotado por outros desenvolvedores e fabricantes de browsers.
+
+Nessa época, Marc Andreessen desenvolveu o navegador Mosaic – browser, responsável pela popularização do código HTML.
+
+Entre 1993 e 1995, o HTML evoluiu com as novas versões: HTML+, HTML 2.0, HTML 3.0. Essa evolução incluiu diversas mudanças para enriquecer a linguagem com novos recursos e aplicabilidades no mundo web.
+
+Em 2004, um grupo de desenvolvedores das empresas Mozilla, Apple e Opera fundaram a WHATWG – Web Hypertext Application Technology Working Group. Com isso, teve início o desenvolvimento da nova versão do HTML, chamada de HTML5 atualmente.
+
+No início de 2009, o W3C anunciou a primeira especificação do HTML5. Depois de alguns anos de trabalho, a versão final do HTML5 foi prometida para 2012.
+
+Entre as alterações encontradas na nova versão do HTML5, estão:
+
+Novas APIs, para o desenvolvimento de gráficos bidimensionais, por exemplo
+Aprimoramento do uso off-line
+Melhoria na depuração de erros
+Controle embutido de conteúdo multimídia, entre outras propostas.
+
+-----------------------------------------------------
+
+A linguagem HTML utiliza rótulos para informar ao navegador como a página deve ser apresentada. A maioria desses rótulos possui o mesmo formato: indicam a abertura e o fechamento da página.
+
+E o que são esses rótulos, você sabe?
+
+Os rótulos HTML são conhecidos como tags. As tags iniciam com o sinal de menor (<) e terminam com o sinal de maior (>).
+

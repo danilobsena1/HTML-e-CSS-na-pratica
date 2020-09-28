@@ -1,0 +1,33 @@
+Lista não ordenada
+As listas não ordenadas apresentam itens sem uma ordem sequencial. Podemos afirmar que são listas de pequenos marcadores.
+
+Para criar uma lista não ordenada, basta adicionar a tag <ul>. Já os itens são incluídos a partir da tag <li>. Vejamos um exemplo:
+
+<ul>
+  <li> Fundação</li>
+  <li> Bradesco</li>
+  <li> Brasil</li>
+</ul>
+
+----------------------------------------
+
+Lista ordenada
+Conhecida também como lista numerada, a lista ordenada é utilizada para representar uma sequência ou numeração. A inserção da lista ordenada é feita com as tags <ol> e <li>.
+
+Vejamos:
+
+<ol>
+  <li> Fundação</li>
+  <li> Bradesco</li>
+  <li> Brasil</li>
+</ol>
+
+---------------------------
+
+Lista de Definição
+A lista de definição é constituída por um termo e uma descrição. A criação desse modelo de lista utiliza três elementos do HTML. Vejamos:
+
+<dl> – cria a lista.</dl>
+<dt> – define o termo.</dt>
+<dd> – adiciona a definição.</dd>
+

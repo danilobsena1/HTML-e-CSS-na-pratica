@@ -1,0 +1,16 @@
+Publicação do Documento
+
+Para tornar os documentos em HTML disponíveis na web, precisamos fazer uma publicação ou upload do conteúdo.
+
+A publicação dos documentos consiste no envio de todo o material produzido para um servidor. Isso significa criar um site que será disponibilizado por meio de um endereço URL.
+
+O nome dado ao armazenamento dos arquivos é hospedagem. A hospedagem costuma ser feita por empresas especializadas.
+
+Existem hospedagens gratuitas. No entanto, elas são vinculadas à propaganda ou podem gerar transtorno.
+
+Ao publicar um material, é indicado que você adquira um domínio para tornar mais fácil a busca e a exposição do conteúdo publicado.
+
+------------------------------------------
+Domínio é o nome dado ao seu site na internet e indica a sua localização dentro da rede mundial de computadores.
+
+Para se adquirir um domínio, é preciso possuir (CNPJ) pessoa jurídica ou (CPF) pessoa física, e realizar a contratação por meio de uma empresa especializada.

@@ -1,0 +1,276 @@
+* {
+    margin: 0; padding: 0; /* inicia todos os elementos com margin 0 e padding 0*/
+}
+
+.container-principal { /* Vamos usar essa class para alterar a cor e o estilo da fonte que nossa página terá.*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777; /*Cor da letra*/
+}
+
+header { /* Formatação do topo da página*/
+    width: 100%;
+    height: 100px; background-color: #fff; position: relative; top: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 300px;
+    height: auto;
+}
+.logo img {
+    width: 90%;
+    margin-left: 10%;
+    /* Observe também que o width foi definido como 90%. 
+    Isso significa 90% de 300px, que corresponde à largura da div logo, e um margin-left de 10%.
+    Dessa forma, a imagem do logo terá 280px de largura e 20px de margin-left. */
+}
+
+/* Definindo as propriedades o menu 
+ Usaremos, novamente, uma tag como seletor.
+    Nesse caso, será a tag <nav> juntamente com a técnica do aninhamento para definir as
+     propriedades dos itens da lista <ul>/<li> e dos links <a> */
+
+nav {
+    position: absolute; right: 30px; bottom: 0px;
+}
+
+nav ul li {
+    float: left; color: #fff; width: auto; margin: 0.8em;
+    font-size: 1.5em; font-family: Verdana, Geneva, Tahoma, sans-serif; list-style: none;
+/* O float corresponde à flutuação de um elemento.
+Essa propriedade trabalha muito bem com o position relative e é indispensável para o desenvolvimento
+ sem tabelas - tableless. No caso do nav, usamos o float left nas linhas para forçar
+  os itens <li> de nossa lista <ul> a flutuar para esquerda.
+Com isso, as opções do nav permanecem em uma mesma linha */
+
+/* Já conhecemos a propriedade margin. Nesse caso, vamos utilizar essa propriedade para separar um item 
+do outro. */
+}
+
+nav ul li a {
+    text-decoration: none; color: #bbb;
+}
+
+nav ul li a:hover {
+    color: #b13030;
+
+    /* Outro ponto importante é que utilizamos o :hover
+     para atribuir uma cor diferente quando o usuário passar o mouse sobre o menu. */
+} 
+
+/* Definindo as propriedades da imagem principal */
+#banner {
+    width: 100%;
+}
+#banner img {
+    width: 100%; margin-bottom: 0;
+}
+
+/* Definindo as propriedades dos pop-ups */
+
+.modalDialog {
+    position: fixed;
+    font-family: Verdana;
+    top: 0; /*Cordenadas*/
+    right: 0; /*Cordenadas*/
+    bottom: 0; /*Cordenadas*/ 
+    left: 0; /*Cordenadas*/
+    background: rgba(181, 9, 9, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in; /*motor de renderização do google*/
+    -moz-transition: opacity 400ms ease-in; /*motor de renderização do Firefox*/
+    transition: opacity 400ms ease-in;
+    pointer-events: none; /*informa ao navegador que os elementos que possuem a class modalDialog não devem ser alvo de eventos realizados pelo mouse. Por exemplo: cliques e hovers.*/
+    display: none;
+
+    /*Observe que a propriedade position com valor fixed indica que o elemento ficará fixo na posição determinada
+    pelas coordenadas: top, right, botttom e left.
+    Dessa forma, caso haja rolagem na tela, o elemento ficará na posição indicada, sem se movimentar com o
+    conteúdo da página*/
+
+    /* Para que o elemento tenha o tamanho total da janela, a propriedade position deve estar com o valor de fixed. */
+
+    /*Ao iniciar todas as coordenadas com 0, estamos definindo o tamanho de 100% para a largura e 100% para a altura.*/
+
+}
+
+.modalDialog:target {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto; /*Div terá 10% de margin-top*/
+    padding: 5px 20px 13px 20px; /*Foram atribuidos 4 valores em uma mesma propriedade: padding-top:5px, padding-right:20px, padding-bottom:13px e padding-left:20px*/
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 10px; /*Arredondamento das extremidades do elemento*/
+    background-color: #fff;
+   
+}
+
+.modalDialog p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.modalDialog img {
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+}
+
+/* .modalDialog embed {
+    margin-top: 5%;
+    margin-bottom: 5%;
+} */
+
+.close {
+    background-color: #606061;
+    color: #FFFFFF;
+    line-height: 25px; /*No caso do botão close, iremos ajustar a altura que a letra X terá dentro do elemento.*/
+    position: absolute;
+    right: -12px;
+    text-align: center; /* A propriedade text-align permite alinhar o texto. */
+    top: -10px; width: 24px; text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px; /* border-radius Assim como na formatação da div, também indicamos ao navegador como ele deve renderizar a borda do elemento*/
+    -moz-border-radius: 12px; /* border-radius Assim como na formatação da div, também indicamos ao navegador como ele deve renderizar a borda do elemento*/
+    border-radius: 12px; /* border-radius Assim como na formatação da div, também indicamos ao navegador como ele deve renderizar a borda do elemento*/
+}
+
+.close:hover {
+    background-color: #b50909;
+}
+
+footer { 
+    width: 100%; height: 18%; background-color: #b50909;
+    color: #fff; position: relative; float: left;
+    font-family: 'verdana';
+
+    /* A largura do footer (width) será de 100%. Desse modo, o footer terá o tamanho
+    do container em que está inserido. Como a div ‘container-principal’ tem o tamanho
+     da janela, o footer também terá a largura da janela. */
+}
+
+footer .footer-text {
+    width: 30%; margin: 1%; position: relative; float: left;
+
+    /* Observe que atribuímos o valor de 30% para a largura de cada div e uma margin de 1%.
+     Dessa forma, cada div ocupará o espaço de 32%.
+     Também atribuímos a position relative e o float left, para que as divs fiquem na mesma linha.
+       */
+}
+
+footer .footer-text a {
+    color: #fff;
+    
+}
+
+/*Definindo a cor de fundo das páginas: clientes, sobre e contato */
+.color-page {
+    background-color: #ddd;
+}
+
+.img-titulo {
+    width: 20%; height: auto; margin-bottom: 10px;
+    position: relative; float: left; margin-right: 5%;
+
+   /* A div com a class img-titulo terá largura total de 25% da janela: 
+      20% da propriedade widht e 5 % da propriedade margin-right.  */ 
+
+   /*Também adicionaremos a position: relative; e a float: left; para que
+    a div que conterá os clientes se alinhe á esquerda. */   
+}
+.img-titulo img {
+    width: 90%; margin-left: 10%; margin-top: 50px;
+}
+
+/* definindo as propriedades da página clientes. */
+
+#clientes-code {
+    width: 75%; position: relative; float: left;
+}
+#clientes-code .config-clientes {
+    width: 40%;border: 1px solid #b50909; margin-left: 1.5%; padding: 1%; float: left;
+    margin-top: 30px; background-color: #fff;
+}
+#clientes-code .config-clientes img {
+    width: 60%; margin-left: 20%; margin-bottom: 20px;
+}
+#clientes-code .config-clientes p {
+    width: 90%; margin-left: 5%; font-size: 1.2em; margin-bottom: 20px; text-align: center;
+}
+#clientes-code .config-clientes p a {
+    color:#111;
+   
+}
+
+/* definindo as propriedades da página sobre. */
+
+#container-sobre {
+    width:65%; margin-left:5%;float: left; position: relative; height: 80%;
+    background-color: #fff; top: 10%;
+}
+#txt-sobre {
+    width:40%; float: left; position: relative; padding: 5%;
+}
+#txt-sobre p {
+    width:100%;position: relative;float: left;
+}
+#txt-sobre dl {
+    width: 50%;
+}
+#img-conteudo-sobre {
+    width: 45%; position: relative;float: left; padding: 2%;
+}
+#img-conteudo-sobre img {
+    width: 100%;
+}
+
+/* definir as propriedades da página contato */
+#txt-contato {
+    width: 100%; height: 100%;
+}
+#txt-contato form {
+    width:38%; position: relative; float: left; background-color: #fff; padding: 2%;
+    top: 5%; min-height: 400px;
+}
+#txt-contato form label {
+    font-weight: bold;
+}
+#txt-contato form input {
+    max-width: 100%; width: 99%; height: 30px; margin-top: 10px;
+    margin-bottom: 15px; border: solid #b50909 1px; padding-left: 1%;
+}
+#txt-contato form textarea {
+    max-width: 100%; width: 99%; border: solid #b50909 1px; padding-left: 1%;
+    min-height: 100px;
+
+    /* max-width: 100%; Impede que o elemento textarea ultrapassea largura do formulario */
+}
+#txt-contato form button {
+    width: 30%; height: auto; cursor: pointer; background-color: #b50909;
+    color: #fff; font-size: 1.5em; padding: 15px 0 15px 0;
+     margin-left: 35%; margin-top: 1%;
+}
+
+#txt-contato #conta-data {
+    width: 26%;position: relative; float: left;padding: 2%;
+    background-color: #b50909; color: #fff;top: 5%;
+    margin-left: 1.5%;height:400px;text-align: center;
+}
+#txt-contato #conta-data h3 {
+       color: #fff;text-align: center;
+}
+#txt-contato #conta-data h5 {
+       margin-top: 6%;margin-bottom: 4%; vertical-align: middle;
+}
+#txt-contato #conta-data h5 img {
+       width: 50px;
+}
+

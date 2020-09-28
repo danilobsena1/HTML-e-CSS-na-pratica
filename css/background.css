@@ -1,0 +1,61 @@
+/* background-color
+    Define a cor do fundo de um elemento. 
+ body {
+    background-color: lavender;
+
+    background-image
+   Insere uma imagem como fundo do elemento: 
+    background-image: url("imagens/mario_cloud_vectors.jpg");
+
+    background-position 
+    Define a posição da imagem em relação à caixa.
+    background-position: 10px 30px;
+    background-position: 50% 50%;
+    background-position: top left;
+    10px = valor que define a posição na vertical 30px = valor que define a posição na horizontal
+
+    background-repeat
+
+    Repetindo a imagem na vertical
+    background-repeat: no-repeat; 
+    
+    imagem de fundo não se repete
+     background-repeat: no-repeat; 
+    
+    Repete a imagem na horizontal
+    background-repeat: repeat-x;
+
+    Repete a imagem na vertical
+    background-repeat: repeat-y;
+    
+    background-size
+
+    background-size: 50px 50px; configura a dimensão que a imagem terpa na verticar e na horizontal
+
+    background-size: auto; valor padrão.
+
+    background-size: cover; configura a dimensão para que a imagem se ajuste ao tamanho do elemento que está inserido. 
+    
+    */
+
+/* ------------------------------------------------------------------------- */
+
+h1 {
+    color: yellow;
+    font-size: 30px;
+    background-color:steelblue;
+}
+
+body {
+    background-color: lavender;
+    background-image: url("imagens/super-mario-png-yoshi.png");
+    /*Imagem Disponivel em: <https://multarte.com.br/super-mario-png-fundo-transparente/super-mario-png-yoshi/> */
+    background-position: 50px 50px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-attachment: scroll;   
+}
+
+p {
+    font-size: 20px;
+}

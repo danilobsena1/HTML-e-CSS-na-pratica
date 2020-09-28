@@ -1,0 +1,9 @@
+A propriedade pointer-events com o valor none informa ao navegador que os elementos
+que possuem a class modalDialog não devem ser alvo de eventos realizados pelo mouse.
+Por exemplo: cliques e hovers.
+
+Desse modo, as divs com essa classe modalDialog tem o tamanho total da janela
+ e estão acima de todos os outros elementos, por conta do z-index com valor 99999.
+Com isso, qualquer interação com os elementos abaixo dela seria impossível.
+Para que isso não ocorra, definimos o valor none para a propriedade pointer-events.
+O valor indica ao navegador que o elemento não deve receber eventos realizados pelo mouse.

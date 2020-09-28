@@ -1,0 +1,52 @@
+/* 
+List-style-type
+
+O list-style-type é responsável por configurar o tipo de marcador que a lista irá utilizar
+
+
+ordenado por circulo
+    list-style: circle;
+     
+    ordenado por quadrado
+    list-style: square;
+
+    ordenado por  número em algorismo romano
+    list-style: upper-roman;
+
+    ordenado por Letra do alfabeto
+    list-style: lower-alpha;
+    
+-------------------------------------------------------    
+ List-style-position
+
+    O list-style-position define a posição do marcador da lista.
+ 
+ list-style-position: inside;
+
+ Posiciona a esquerda da tela
+ list-style-position: outside; 
+ 
+ ---------------------------------------------------
+ List-style-image
+
+    O list-style-image define se os marcadores da lista serão imagens.
+
+    list-style-image: url("imagem");
+    
+    */
+
+.inside {
+    list-style-position: inside;
+    list-style: square;
+    }
+      
+.outside {
+    list-style-position: outside;
+    list-style-type: circle;
+    }
+      
+.inside-img {
+    list-style-position: inside;
+    list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
+    }
+

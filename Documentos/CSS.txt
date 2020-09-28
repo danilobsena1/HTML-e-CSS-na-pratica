@@ -1,0 +1,39 @@
+ Tipos de CSS
+ 
+OCSS pode ser aplicado no conteúdo HTML de diferentes maneiras:
+
+- Inline – diretamente no HTML
+
+O CSS inline é adicionado junto ao código HTML por meio do atributo style. Isso permite atribuir novas propriedades e alterar o visual do elemento. Vejamos:
+
+<p style="color: red; font-size: 30px"> Texto aqui </p>
+
+-----------------------------------------
+
+- Incorporado – por meio da tag <style>, no topo da página, dentro da tag <head>
+
+O CSS Incorporado é declarado no início do código HTML e deve ser adicionado dentro da tag <head>. Nesse caso, precisamos abrir e fechar a tag <style>. Vejamos:
+
+<style>
+     p{
+          color : blue;
+          font-size: 30px
+          }
+</style>
+-----------------------------------------
+- Linkado ou externo – por meio da tag <link>, de modo a vincular o HTML a uma folha de estilos externa.
+
+ CSS linkado, também conhecido como Externo, é aquele cujas regras CSS são declaradas em um documento a parte do documento HTML, ou seja, é necessário criar um arquivo com a extensão .css separado do arquivo .html.
+
+A ligação entre a página HTML e a folha de estilos (CSS) deve ser feita por meio de um link. Segundo as boas práticas para o desenvolvimento web, o link deve ser incluído no cabeçalho da página, dentro da tag <head>.
+
+O CSS Linkado é ideal quando há a necessidade de se aplicar em várias páginas. Vejamos:
+
+<head>
+<link rel="stylesheet" type="text/css" href="folhadeestilo.css">
+</head>
+
+A tag link informa ao navegador que há uma folha de estilos rel=’stylesheet’ do tipo text/css no endereço apontado pelo atributo href. 
+
+-----------------------------------------
+

@@ -1,0 +1,15 @@
+Para modificar a aparência das listas, o CSS oferece uma propriedade exclusiva de formatação a list-style. 
+Tal propriedade é dividida em três características:
+
+1- List-style-type
+
+    O list-style-type é responsável por configurar o tipo de marcador que a lista irá utilizar
+    
+2- List-style-position
+    
+    O list-style-position define a posição do marcador da lista.
+    
+3- List-style-image
+
+    O list-style-image define se os marcadores da lista serão imagens.
+    

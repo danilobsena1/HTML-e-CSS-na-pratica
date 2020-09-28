@@ -1,0 +1,102 @@
+Formulários – Forms
+
+A interação de um site com o usuário pode ser feita de diversas maneiras. Por exemplo, uma animação que chama atenção para um fato, um botão que aciona músicas ou um formulário que envia mensagens, e-mails, chats e dados ao servidor.
+
+Você sabe o que é um formulário?
+
+Às vezes, é preciso enviar informações ao servidor. Os formulários cumprem esse papel. Por meio dos formulários, os dados são coletados e enviados ao servidor posteriormente.
+
+De modo geral, o formulário é composto de:
+
+Text area – campo de texto.
+Radio buttons – botões radiais.
+Checkboxes – caixas de seleção.
+Outros widgets – componentes.
+
+----------------------------------
+
+Para criar um formulário, temos de usar uma tag específica. A tag <form> é a responsável por essa função. Vejamos:
+
+<form action=" "  method = " ">  </form>
+
+Os atributos na tag <form> não são obrigatórios. No entanto, os padrões recomendam a definição de valores para os dois atributos a seguir:
+
+- Action
+
+O atributo action define o destino dos dados que foram coletados. De modo geral, o valor inserido nesse atributo é um URL.
+
+- Method
+
+O atributo method tem a função de definir o método do HTTP que será usado para enviar os dados – GET ou POST.
+
+O método POST não retorna ao cliente. Desse modo, é considerado um método mais seguro. Além disso, o método POST não possui limite de capacidade, o que permite passar informações mais longas.
+
+Quando clicamos em um link da tag <a>, o link utiliza o método GET.
+
+O método GET possui capacidade para 1.024 caracteres e é utilizado para passar pequenas informações ao servidor.
+
+--------------------------------
+
+Para criar um botão, usaremos a tag <button>. Apesar de parecer óbvio, a tag button pode apresentar mais de um comportamento. O comportamento da tag button depende de seu type, que pode ser de três tipos.
+
+1- Type submit
+
+O type submit envia os dados do formulário à página-destino do atributo actions.
+
+2- Type reset
+
+O type reset redefine todos os campos para padrão, assim que acionado.
+
+3- Type button
+
+Uma tag button com o type button não realiza nenhuma ação, a não ser que seja acionada via codificação Javascript.
+
+-----------------------------------------------
+CHECKBOX
+
+checkbox: É uma tag codificada para um seleção multipla e independente de opções, ou seja, uma opãço selecionada não cancela qualquer outra opção.
+
+Os atributos name e value são responsaveis por informar actions aos dados que devem ser enviados ao servidor.
+
+------------------------------------------
+RADIO
+
+O type radio é similar ao Checkbox. No entanto, somente uma das opções pode ser selecionada.
+
+Para p type="radio" da tag <input> os valores do atributo name devem obrigatoriamente serem idênticos, por ser seleção única.
+
+Os atributos name e value são responsaveis por informar actions aos dados que devem ser enviados ao servidor.
+
+--------------------------------------------------
+SELECT
+
+A tag <select> é formada por um conjunto de opções <option>. Tais opções fornecem ao usuário uma lista organizada no formato drop-down.
+
+Vejamos:
+
+<select>
+
+  <option value="verde">Verde</option>
+
+  <option value="vermelho">Vermelho</option>
+
+  <option value="azul">Azul</option>
+
+  <option value="alpha">Alpha</option>
+
+</select>
+
+A tag <select> é uma tag não nula. Isso significa que ela deve conter abertura <select> e fechamento </select>, além das opções inseridas. Veja um exemplo a seguir:
+
+<option value= "valor a ser enviado ao servidor"> Texto Aqui </option>
+
+
+----------------------------------------------------------
+Type Hidden – Oculto
+
+O type hidden torna o campo input invisível para o usuário, permitindo, dessa forma, a passagem de dados para o servidor sem a necessidade de interação com o usuário.
+
+ <label>Campo invisivel</label>
+ <input type="hidden" name="pais" value="Brasil">
+ 
+ 

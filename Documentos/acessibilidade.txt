@@ -1,0 +1,18 @@
+Acessibilidade
+
+Você já deve ter ouvido falar em acessibilidade, não é mesmo? Nos dias de hoje, a preocupação com a acessibilidade é um grande ponto de discussão em diversos meios profissionais, sociais e econômicos.
+
+A inclusão de pessoas portadoras de deficiências ou com mobilidade reduzida permite um desenvolvimento incrível e essencial da sociedade. Nesse contexto, em uma ação conjunta do Grupo de trabalho (GT) de acessibilidade na web e do W3C BR, foi criada uma cartilha com instruções e orientações sobre o tema.
+
+Segundo a Cartilha W3C BR de acessibilidade web, acessibilidade é:
+
+Possibilidade e condição de alcance, percepção e entendimento para a utilização, em igualdade de oportunidades, com segurança e autonomia, do meio físico, do transporte, da informação e da comunicação, inclusive dos sistemas e tecnologias de informação e comunicação, bem como de outros serviços e instalações.
+
+Vamos ver o que diz a Cartilha W3C?
+
+A Cartilha W3C BR define a acessibilidade na web da seguinte forma:
+
+Acessibilidade na web significa que pessoas com deficiência podem usar a web. Mais especificamente, a acessibilidade na web significa que pessoas com deficiência podem perceber, entender, navegar, interagir e contribuir para a web. E mais. Ela também beneficia outras pessoas, incluindo pessoas idosas com capacidades em mudança devido ao envelhecimento.
+
+Desse modo, vemos que a preocupação com a acessibilidade não se limita a disponibilizar softwares leitores de texto, sites ou páginas web. A acessibilidade busca a igualdade de oportunidades e o crescimento pessoal, independentemente da condição física.
+

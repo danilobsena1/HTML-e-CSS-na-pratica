@@ -1,0 +1,32 @@
+Inserção de Imagens
+
+O uso de imagens em páginas web é indispensável tanto por uma questão estética quanto para compreensão do conteúdo. O HTML possui uma tag específica para a inclusão de imagens.
+
+A tag <img> possibilita trabalhar com imagens. Os atributos dessa tag auxiliam na definição do tamanho, da posição e da descrição da imagem.
+
+<img src= “Local onde está a imagem”>
+
+---------------------------------------------------------------
+
+Pode parecer um pouco estranho, mas podemos inserir uma imagem na página web por meio do CSS. A propriedade que possibilita a inserção de imagem pelo CSS é o background. A propriedade background é dividida de vários modos e pode assumir valores específicos. Clique em cada modo para conhecê-lo.
+
+- Background-color
+    Define a cor do fundo de um elemento.
+
+- Background-image
+    Insere uma imagem como fundo do elemento
+
+- Background-size
+    Configura o tamanho da imagem no elemento.
+
+- Background-position
+    Define a posição da imagem em relação à caixa.
+
+- Background-attachment
+    Define se a imagem de fundo rolará com a tela
+
+- Background-repeat
+    Define se a imagem de fundo pode se repetir ou não.
+    
+
+

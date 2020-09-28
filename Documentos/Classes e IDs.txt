@@ -1,0 +1,43 @@
+As classes permitem identificar mais de um elemento ao mesmo tempo e aplicar formatação de forma exemplar.
+
+- Aplicação no CSS 
+Na folha de estilo, a propriedade class vem precedida por um ponto (.).
+
+.nomedaclasse { propriedade: valor;}
+
+
+- Aplicação no HTML
+<p class='nome da classe'>Seu texto </p>
+
+É possível aplicar mais de uma class em cada elemento:
+
+<p class='primeira da classe segunda class'> Seu texto </p>
+
+Também podemos adicionar a mesma class em vários elementos:
+
+<p class='primeira da classe'>Primeiro parágrafo</p>
+<p class='primeira da classe'>Segundo parágrafo</p>
+<p class='primeira da classe'>Terceiro parágrafo</p>
+
+--------------------------------------
+IDs
+
+O ID possibilita a identificação de um elemento por vez.
+
+- No CSS, o ID deve ser descrito da seguinte forma:
+
+#seuID {propriedade: valor;} Exemplo: #menu{ border: 5px;}, #footer{ top: 30px;}
+
+- Já no HTML, o ID deve ser registrado do seguinte modo: 
+
+<p id='paragrafo1'>Seu texto</p>
+<div id='amigo1'> Seu texto </div>
+
+---------------------------------------------------
+
+Dica rápida!
+É muito importante não utilizarmos o mesmo nome para os IDs e as classes. Desse modo, evitamos conflitos. Também não é aconselhável colocar ID e class no mesmo elemento. No entanto, isso é possível. Vejamos: 
+
+<p id='amigo1' class='amigo2'> Seu texto </p>
+<p id='amigo3' class='amigo2'> Seu texto </p>
+

@@ -1,0 +1,17 @@
+Especificações e Atributos
+
+Os atributos são informações que inserimos nas tags para que elas tenham um comportamento desejado.
+ Existem atributos que utilizamos em quase todas as tags.
+  Já outros atributos podem ser exclusivos para um tipo de tag.
+
+Os atributos são utilizados, praticamente, em todas as tags, para que elas tenham o comportamento desejado,
+ mas não são sempre os mesmos, sendo alguns exclusivos para determinados tipos de tag.
+
+Os atributos são inseridos junto com a tag de abertura. Vejamos:
+
+<nomedatag atributo1="valor do atributo 1" atributo2="valor do atributo 2"> </nomedatag>
+
+Alguns exemplos:
+
+atributo id, atributo class, atributo name, atributo content.
+

@@ -1,0 +1,10 @@
+Transitions
+      Neste caso, utilizaremos a propriedade transition para realizar a mudança de valor da propriedade opacity.
+       Esse valor foi definido juntamente com as demais propriedades da classe .modalDialog 
+       e seu valor inicial é 0, ou seja, o elemento estará totalmente transparente.
+     
+    Com a propriedade transition, estamos informando ao navegador que o motor de renderização
+      deve realizar a troca de forma suave, quando o elemento com a class modalDialog sofrer
+       uma mudança na propriedade opacity.
+    A troca deve ser feita em 400 ms(milissegundos), utilizando o efeito ease-in para 
+    determinar  o ritmo em que a transição será feita.

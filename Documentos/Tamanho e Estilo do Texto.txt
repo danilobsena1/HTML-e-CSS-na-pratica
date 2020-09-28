@@ -1,0 +1,16 @@
+Tamanho e Estilo do Texto
+Já sabemos como modificar a cor do fundo e a cor da fonte. Agora, vamos mudar o tamanho e o estilo do nosso texto.
+
+  Vejamos:
+
+<font size= “Tamanho da fonte”></font>
+
+Você pode definir o tamanho da fonte de várias formas diferentes.
+
+Por padrão, usamos o px. No entanto, você pode utilizar outras unidades de medida. Mais adiante, falaremos sobre as medidas.
+
+
+Por meio da tag <font> e do atributo face, também conseguimos alterar o estilo da fonte que o texto terá.
+
+<font face = “Verdana”> seu texto </font>
+

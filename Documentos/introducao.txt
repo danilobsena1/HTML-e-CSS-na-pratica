@@ -1,0 +1,53 @@
+ 
+A internet foi criada por volta de 1969 e surgiu com a finalidade de auxiliar a comunicação das forças armadas americanas em meio à guerra.
+
+O propósito inicial da internet era manter contato alternativo entre as tropas, caso os ataques inimigos interrompessem os meios tradicionais de telecomunicação da época.
+
+A busca por poder e vantagem fazia dos Estados Unidos e da União Soviética grandes potências mundiais na década de 1960.
+
+Temendo a perda de documentos sigilosos por meio de um ataque soviético, os americanos desenvolveram um sistema de comunicação capaz de compartilhar e descentralizar informações.
+
+Para tornar isso possível, foi necessária a criação de uma rede operacional de computadores, trabalho desenvolvido pela ARPA (Agência de Pesquisa em Projetos Avançados ou Advanced Research and Projects Agency, em inglês).
+
+A ARPANET foi então criada e passou a interligar bases e departamentos do governo americano
+
+-------------------------------------------------
+
+ARPANET
+
+
+A ARPANET utilizava um sistema de transmissão de dados conhecido como chaveamento de pacotes. Um chaveamento de pacotes divide as informações em pequenos pacotes diferentes e envia tais pacotes aos poucos.
+
+Na década de 1970, com a diminuição da tensão entre Estados Unidos e União Soviética, o governo dos Estados Unidos dividiu o sistema em dois:
+
+# MILNET, com uso exclusivo para propósitos militares.
+# ARPANET, que passou a ser desenvolvida por universidades e pesquisadores.
+O desenvolvimento da ARPANET por pesquisadores culminou em uma nova função: a comunicação acadêmica.
+
+FUNCIONAMENTO DA ARPANET
+
+Imagine que você tenha de levar uma carta do ponto A ao ponto B. Para isso, você precisa utilizar um meio de transporte rápido e eficiente.
+
+No entanto, não é possível ir direto de um ponto a outro, pois você precisa fazer pequenas paradas para entregar cópias das cartas ao longo do caminho. Vejamos:
+
+Muito parecido com uma linha de metrô, não é mesmo?
+
+Para realizar a comunicação, a ARPANET utilizava um sistema chamado backbone (espinha dorsal, em português). O backbone era formado por computadores potentes, ligados por linhas em lugares estratégicos, para realizar a transferência de um grande fluxo de dados.
+
+-----------------------------------------------------------
+World Wide Web
+
+Em 1989, Tim Berners-Lee apresentou a primeira proposta para a World Wide Web (rede mundial de computadores).
+
+Junto com um estudante do Conselho Europeu para Pesquisa Nuclear (CERN), Tim Berners-Lee conseguiu realizar a primeira comunicação entre um cliente e um servidor por meio da internet.
+
+A comunicação entre o cliente (navegador web) e o servidor foi realizada por meio do protocolo HTTP (hypertext transfer protocol ou protocolo de transferência de hipertexto, em português).
+
+As informações em textos ou imagens estão ligadas por meio de links ou hiperlinks. A troca de um conteúdo para outro é feita por meio do protocolo HTTP.
+
+A mensagem com a requisição de recurso é enviada ao servidor por meio do protocolo HTTP. O protocolo HTTP, por sua vez, retorna com a resposta.
+
+A World Wide Web (WWW ou apenas Web) é composta de pequenas quantidades de documentos interligadas por meio de hiperlinks. Os hiperlinks tornam a navegação não linear e independente.
+
+O conjunto de documentos é chamado de página web. Já os sítios ou sites são formados pelo conjunto de páginas web localizadas em um mesmo endereço. 
+

@@ -1,0 +1,43 @@
+Navegadores Web
+Certamente, você é um usuário assíduo da internet. Mas você sabe explicar o que é um navegador?
+
+Um navegador (também conhecido como web browser ou browser) é um programa de computador que habilita seus usuários a interagirem com documentos virtuais da internet, as páginas da web. Tais páginas podem ser escritas em linguagens como HTML, XHTML ou HTML5.
+
+Por ser o primeiro a conseguir realizar a comunicação entre cliente (navegador web) e servidor, Tim Berners-Lee também foi o responsável pela criação do primeiro navegador web.
+
+Você sabe como era chamado o primeiro navegador web?
+
+O primeiro navegador web foi intitulado de World Wide Web, e foi implementado para realizar a comunicação entre pesquisadores e alunos do CERN.
+
+----------------------------------
+
+Google Chrome
+
+O Google Chrome é um navegador web gratuito desenvolvido pela empresa Google, e sua primeira versão foi disponibilizada em 2008.
+
+Tornou-se um dos  mais populares navegadores disponíveis para Windows, Mac (Mac OS), Linux (Ubuntu), Android e iOS.
+
+O navegador conseguiu diferenciar-se de seus concorrentes, principalmente, por sua agilidade e compatibilidade com a maioria dos sites, devido ao uso de plug-ins.
+
+------------------------------------------
+
+Internet Explorer
+
+O Internet Explorer, mais conhecido como IE, consiste em uma série de navegadores desenvolvidos pela Microsoft e distribuídos nas versões dos sistemas operacionais Microsoft Windows. Sua primeira versão foi lançada em 1995. 
+
+Já esteve entre os mais populares e utilizados do mundo, ocupando cerca de 95% do mercado entre os anos de 2002 e 2003.
+
+Sua participação caiu com o lançamento do Firefox em 2004 e, posteriormente, com o Google Chrome em 2008. Desde então, foi perdendo espaço entre os navegadores.
+
+Após várias tentativas frustradas de melhorar a imagem do IE, com o lançamento do Windows 10, em 2015, a Microsoft substituiu o Internet Explorer pelo Microsoft Edge, com novos recursos e visual mais moderno.
+------------------------------------------
+Safari
+
+O navegador Safari é o navegador padrão do sistema operacional Mac OS X, da empresa Apple Inc.
+
+Lançado no ano de 2003 para ganhar uma fatia do mercado, o Safari precisou ser atualizado com a chegada do Firefox em 2004. Após algumas atualizações, o navegador adotou o modelo de abas. Hoje em dia, o modelo de abas é visto na maioria dos navegadores.
+
+A fim de acirrar a guerra entre os navegadores, a Apple lançou a versão para Windows do Safari em 2007. 
+
+O Safari é um pouco menos conhecido pelos brasileiros. Atualmente, é o quarto navegador mais utilizado no mundo, com 9,5% dos usuários totais.
+------------------------------------------

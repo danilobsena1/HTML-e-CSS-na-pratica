@@ -1,0 +1,32 @@
+POP-UPS
+O pop-up é uma janela que abre no navegador da internet quando acessamos uma página na web ou um link de redirecionamento.
+A nova janela pode apresentar informações de destaque do site.
+Na maioria dos casos, as pop-ups apresentam publicidades e anúncios.
+
+--------------------------------------------------------
+STRONG
+A tag <strong> dá ênfase a uma parte especifica do texto, marcando visualmente como negrito e, para leitores
+de texto automático, utilizado principalmente por deficentes visuais, 
+determina que o texto deve ser lido com mais intensidade.
+
+--------------------------------------------------------
+B
+A tag <b> apenas marca em nerito o texto, e não influencia na leitura.
+
+--------------------------------------------------------
+MOTOR DE RENDERIZAÇÃO
+Um motor de renderização é um software que transforma linguagem de marcação em informação de formatação.
+Com isso, o conteúdo formatado fica visível em monitores e demais aparelhos que possuem navegadores.
+--------------------------------------------------------
+TRANSITIONS
+O CSS transitions permite qua as mudanças nos valores das propriedades CSS ocorram suavemente,
+ com uma duração determinada.
+Existem alguns padrões predefinidos para a utilização do transition. Por exemplo:
+
+- Linear
+- Ease
+- Ease-in
+- Ease-out
+- Ease-in-out.
+Também podemos personalizar o efeito de transição.
+No entanto, é necessário ter um conhecimento intermediário das propriedades do CSS.

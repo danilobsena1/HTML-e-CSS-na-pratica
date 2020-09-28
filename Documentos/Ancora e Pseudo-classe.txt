@@ -1,0 +1,30 @@
+Âncora
+
+Quando trabalhamos com âncoras em um site, utilizamos a tag <a> para nos auxiliar.
+
+Dito de outro modo, podemos utilizar um ID como valor do href de uma tag <a>. 
+Desse modo, criamos uma ligação ou âncora da tag <a> com o elemento que possui o ID informado.
+
+Ao clicar no link, o usuário é direcionado para a posição em que o elemento está.
+ Com isso, o usuário visualiza o conteúdo que deseja de forma rápida.
+
+Podemos relacionar esse recurso a um objeto, de forma a manipular seu comportamento com o CSS.
+Para tanto, precisamos da pseudo-classe :target.
+
+Pseudo-classe
+ A pseudo-classe é uma palavra adicionada a seletores. Tal palavra indica o estado
+ especial de um elemento ativo. Neste caso, quando clicamos no link (tag <a>) é ativada
+a ligação (âncora), e a tela é direcionada até o local em que elemento que possui
+o mesmo ID do atributo href da tag <a> está. Com isso, esse elemento pode ser manipulado
+pelo seletor :target. 
+
+Veja como utilizaremos o :target.
+.modalDialog:target {
+    display: block;  /* Estamos informando ao navegador que a div ficará visível (display: block) */
+    opacity: 1; 
+    pointer-events: auto; /*A propriedade pointer-events foi modificada para auto, possibilitando a interação com as divs */
+}
+
+/* opacity: 1;  A opacidade mudará para 1 (opacity : 1) quando clicarmos no link ou na âncora.
+ Isso vai ocorrer porque o clique ativará o transition colocado anteriormente
+  na class modalDialog. Desse modo, o pop-up vai aparecer suavemente */

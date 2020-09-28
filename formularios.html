@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Utilizando formulário</title>
+    </head>
+    <body>
+       <form action="" method="POST">   
+        <label>Text:</label>
+        <input type="text">
+        <label>Password:</label>
+        <input type="password">
+        <label>Textarea:</label>
+        <textarea> </textarea><br><br>
+        
+        <hr>
+        
+        <label>Campo visivel</label>
+        <input type="text"><br>
+
+        <!--Utilizando hidden-->
+        <label>Campo invisivel</label>
+        <input type="hidden" name="pais" value="Brasil">
+        
+        <hr>
+        
+        <!--Utilizando checkbox-->
+        <p>Selecione: </p>
+        <!-- Caso o atributo checked esteja aplicado, o elemento já aparecerá selecionado. -->
+        <input type="checkbox" name="opcao" value="selectA" checked>Clique para selecionar o A<br>
+        <input type="checkbox" name="opcao" value="selectB" > Clique para selecionar o B<br>
+        <input type="checkbox" name="opcao" value="selectC" > Clique para selecionar o C<br>
+      
+        <!--Utilizando radio-->
+        <p>Selecione seu gênero </p>
+        <input type="radio" name="opcao" value="masculino" checked>Masculino<br>
+        <input type="radio" name="opcao" value="feminino" > Feminino<br>
+
+        <!--Utilizando select-->
+        <p>Selecione seu estado civil: </p>
+        <select>
+            <option value="">Selecione</option>
+            <option value="Casado(a)">Casado(a)</option>
+            <option value="Solteiro(a)">Solteiro(a)</option>
+            <option value="Divorciado(a)">Divorciado(a)</option>
+            <option value="Viuvo(a)">Viuvo(a)</option>
+        </select><br><br>
+        <button type="reset">Resetar as informações</button>
+        <button type="submit">Cadastrar</button>
+        </form>
+    </body>
+</html>

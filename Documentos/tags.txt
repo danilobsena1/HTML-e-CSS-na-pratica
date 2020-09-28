@@ -1,0 +1,17 @@
+Como mencionamos, existem dois tipos básicos de tags:
+
+Tag de abertura
+Tag de fechamento.
+As duas se diferenciam apenas pela barra /. A barra indica o fechamento da tag, de modo que a tag de abertura não tem a barra.
+
+Vejamos:
+
+<aberturadatag> </fechamentodatag>
+
+
+Em HTML, existem tags que são consideradas nulas.
+
+Uma tag nula possui autofechamento. As tags nulas são diferentes das não nulas (a maioria), já que não precisam de abertura e fechamento.
+
+Veja alguns exemplos de tags nulas: <meta>, <img>, <br>
+

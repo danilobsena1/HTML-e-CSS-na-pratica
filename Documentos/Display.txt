@@ -1,0 +1,16 @@
+Display
+
+Para finalizar, a propriedade display permite que você indique ao navegador
+ como os elementos devem ser renderizados pelo motor.
+
+Existem cerca de 20 valores possíveis para a propriedade display.
+ Iremos utilizar apenas os valores block e none.
+
+block
+    O valor block indica ao navegador que o elemento deve ser renderizado em bloco,
+ juntamente com seus filhos ou elementos contidos nele.
+
+
+none
+    Já o valor none permite desativar a exibição do elemento. Desse modo, o documento é renderizado
+ como se o elemento não existisse.

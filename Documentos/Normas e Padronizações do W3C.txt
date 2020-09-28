@@ -1,0 +1,23 @@
+Normas e Padronizações do W3C
+
+Com o avanço da internet, ficou cada vez mais evidente a necessidade de criação de normas e padrões para garantir uma evolução adequada.
+
+Nesse contexto, o criador da Web, Tim Berners-Lee, é o atual diretor do World Wide Web Consortium (W3C).
+
+Você conhece o W3C?
+
+O W3C é o consócio internacional que tem como principal função o desenvolvimento de padrões que auxiliem no crescimento da internet.
+
+Linhas de Pesquisa
+No site do W3C, existem diversos materiais com normas e padrões para auxiliar o desenvolvimento de conteúdo organizado e otimizado para internet.
+
+Algumas linhas de pesquisa do W3C são:
+
+Web Design & Aplicações
+Arquitetura Web
+Web Semântica
+Tecnologia XML
+Web Services
+Web de Dispositivos
+Navegadores e Ferramentas de Autoria.
+

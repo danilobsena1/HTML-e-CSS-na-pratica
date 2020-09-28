@@ -1,0 +1,25 @@
+Seletores
+
+Você sabe para que serve um seletor?
+
+Os seletores são a declaração que o CSS utiliza para identificar os elementos do HTML. Por meio dos seletores, podemos aplicar a formatação em quase qualquer parte de uma página web.
+
+Algumas das tags que aprendemos também são seletores. Se bem trabalhadas, essas tags podem ser de grande ajuda no dia a dia de um desenvolvedor.
+
+A estrutura para regras do CSS é:
+
+seletor {
+    propriedade: valor;
+}
+
+
+Existem inúmeros seletores. No entanto, listaremos apenas os mais importantes no quadro a seguir:
+
+Seletor      |	Formato|	Descrição
+Universal    |	*	   |Qualquer elemento.
+Tipo elemento|	<e>	   |Seleciona qualquer elemento do tipo <e>.
+Classe	     |  .	   |Seleciona os elementos que contêm a classe.
+ID           |	#	   |Seleciona o elemento identificado com o ID.
+Link	     |  a	   |Seleciona a pseudo-class link.
+Hover	     |:hover   |É aplicada quando posicionamos o mouse sobre o elemento.
+

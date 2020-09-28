@@ -1,0 +1,14 @@
+Atributos
+
+Os atributos ou propriedades são informações de um elemento que permitem a formatação total de sua aparência, posição, dimensão e outros aspectos.
+
+Desse modo, são exemplos de atributos a borda, o background, a largura e a altura.
+
+
+Classes
+
+Já as classes são um conjunto de atributos predefinidos com o objetivo de formatar um elemento. Esse conjunto de informações facilita a configuração dos elementos HTML.
+
+Podemos aplicar a mesma classe em vários elementos distintos. Lembre-se! As classes são um tipo de seletor.
+
+

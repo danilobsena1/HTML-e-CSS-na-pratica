@@ -1,0 +1,15 @@
+Inserção de Links
+
+Conhecido também como hiperlink, o link é o segredo por trás da internet. A função do link é estabelecer a ligação com outros sites, páginas, imagens, sons e outros elementos.
+
+Os links podem direcionar o usuário para outra parte de uma mesma página, para outra página no próprio site ou para um arquivo.
+
+Para criar um link, precisamos de duas informações muito importantes:
+
+- O local de destino de seu link (target)
+- O local de origem, em que devemos clicar.
+
+Quando inserimos um link, a tag <a> faz o papel de direcionar a navegação entre as páginas. O elemento a da tag significa action e realiza uma ação quando acionado.
+
+Para criar o link, o atributo href é obrigatório. Tal atributo guarda o novo endereço para onde o usuário será direcionado.
+

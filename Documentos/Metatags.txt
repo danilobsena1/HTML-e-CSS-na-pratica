@@ -1,0 +1,13 @@
+Metatags
+As metatags são tags que fornecem dados aos navegadores e motores de busca sobre o documento HTML em que estão inseridas.
+
+As metatags não aparecem em sua tela, pois são informações específicas para os navegadores.
+
+Vejamos alguns exemplos de metatags:
+
+Descrição da página, palavras-chaves, autor do documento.
+
+ 
+<meta name="description" content="Descrição da página">
+<meta name="keywords" content="Palavras-chaves">
+<meta name="author" content="nome do Autor">

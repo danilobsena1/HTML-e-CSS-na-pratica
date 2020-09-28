@@ -1,0 +1,26 @@
+Formatação dos Textos
+
+Quando estamos criando uma página web, pode surgir a necessidade de destacar uma palavra das demais. Nessas ocasiões, podemos mudar a cor ou o tamanho da letra (fonte), inserir itálico ou sublinhado. Há muitas possiblidades!
+
+Vamos conhecer algumas tags que nos podem auxiliar a dar destaque às palavras:
+
+- Negrito – bold, em inglês
+
+Existem duas formas de aplicar o negrito com tags. Cada forma de aplicação possui uma função:
+
+<b> – Segundo a descrição do W3C, a tag <b> deve ser usada para destacar uma palavra.
+<strong> – A tag <strong> também destaca a palavra. No entanto, essa tag deve ser usada para representar algo importante, sério ou urgente.
+
+- Itálico
+Assim como o negrito (bold), o itálico também possui duas formas de ser aplicado.
+
+<i> – Segundo as orientações do W3C, a tag <i> deve ser usada em termos técnicos. Por exemplo: O nome da flor é Orquídea.
+<em> – Já a tag <em> deve ser usada para dar ênfase a uma palavra. Por exemplo: Ela não passou por aqui ontem.   
+
+
+- As tags para sublinhar, subscrever e sobrescrever são:
+
+Tag <u> – A tag <u> adiciona sublinhado ao texto.
+Tag <sub> – O texto dentro da tag <sub> se torna subscrito (letras pequenas abaixo de um texto). Ex: H20.
+Tag <sup> – Coloca o texto como sobrescrito (letras pequenas acima de um texto). Ex: X².
+

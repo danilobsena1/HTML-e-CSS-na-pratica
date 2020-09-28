@@ -1,0 +1,43 @@
+#title {
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;  # font-style altera o estilo do texto.
+    font-weight: normal;   # Altera o peso do texto.
+    
+    # text-transform: Alterar o texto entre maiuscula e minuscula
+
+    text-transform: uppercase; # Coloca todo o texto em CAIXA ALTA.
+    text-decoration: underline; # Usado para dá destaque em algum texto, colocando uma linha
+        abaixo da palavra.
+ 
+ }
+
+.subititle {
+    text-transform: lowercase; # Coloca todo o texto em caixa baixa.
+    text-decoration: overline; # coloca uma linha acima da palavra.
+}
+
+.post_title {
+    font-family: Verdana, Arial;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize; # Coloca a primeira letra de cada palavra em maiuscula.
+    text-decoration: line-through; # coloca uma linha ao centro, cortando essa palavra.
+}
+
+########################################################
+
+list-style-type
+
+ul {
+    list-style-type: square; # quadrado
+}
+
+ol {
+    list-style-type: upper-roman; # algorismo romano em MAIUSCULO
+}
+
+ul {
+    list-style-type: "\1F44D"; # mostra um emogi. 
+}

@@ -1,0 +1,9 @@
+width  # largura
+height # altura
+
+Max-width   # largura maxima que o elemento pode ter.
+Max-height  # altura maxima que o elemento pode ter
+
+Margin #
+
+Text align  # serve para alinhar textos.

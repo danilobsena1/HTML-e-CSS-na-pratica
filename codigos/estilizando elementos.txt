@@ -1,0 +1,56 @@
+padding e margin
+
+Exemplo de uso do padding:
+
+exemplo1 {
+    padding: 10px 5px; # valor de 10px se refere ao eixo y e 5px ao eixo x
+}
+
+exemplo2 {
+    padding: 15px 10px 5px 0; 
+  # Um valor para cada lado:  15px para o topo, 10px para a direit, 5px para parte inferior e 0 para o lado esquerdo.
+}    
+
+exemplo3 {
+    padding-top : 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;  
+}
+
+
+
+
+############################################################
+Propriedade background:
+
+exemplo {
+    background-color: green;
+    background-image: url("imagem.png");
+    background-position: top;
+}
+############################################################
+Border
+
+exemplo {
+    border: 3px solid blue;
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;   
+}
+
+Estilizando os lados da borda:
+
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 4px dotted cyan; 
+
+border-radius: Permite arredondar os cantos do elemento.
+
+border-radius: 10px; #Altera todos os cantos do elemento
+border-radius: 50%;
+border-radius: 10% 20%;
+border-radius: 10% 20% 15% 20%; #Altera cada lado do elemento. 
+
+
+###################################################################
